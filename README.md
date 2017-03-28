@@ -3,11 +3,8 @@
 ## To run from a local server
 1. Make sure you have Hugo installed.
 2. Clone
-3. ```$ cd themes```
-4. ```$ git clone https://github.com/jpescador/hugo-future-imperfect.git```
-5. Switch back to main directory
-6. ```$ hugo server```
-7. Access at localhost:1313
+3. ```$ hugo server```
+4. Access at localhost:1313
 
 ## To add content
 1. In working dir, input ```$ hugo new blog/blog title.md```
