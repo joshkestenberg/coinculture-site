@@ -25,13 +25,13 @@
                 <a class="fa-share-alt" href="#share-menu">Share</a>
             </li>
             {{ end }}
-            <!-- <li class="search">
+            <li class="search">
                 <a class="fa-search" href="#search">Search</a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
+                    <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
                 </form>
-            </li> -->
+            </li>
             <li class="menu">
                 <a class="fa-bars" href="#menu">Menu</a>
             </li>
@@ -43,12 +43,12 @@
 <section id="menu">
 
     <!-- Search -->
-        <!-- <section>
+        <section>
             <form class="search" method="get" action="//google.com/search">
                 <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
+                <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
             </form>
-        </section> -->
+        </section>
 
     <!-- Links -->
         <section>
